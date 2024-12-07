@@ -1,3 +1,11 @@
 fn main() {
-    println!("Hello, world!");
+    println!("Hello, girl!");
+}
+
+#[cfg(test)]
+mod tests {
+    #[test]
+    fn do_something() {
+        println!("Pee")
+    }
 }
